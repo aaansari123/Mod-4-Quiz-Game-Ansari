@@ -7,26 +7,40 @@
         <link rel="stylesheet" type="text/css" href="./assets/style.css" />
       </head>
 
-      <body>
-        <button type = "button" class = "score-button">View high scores</button>
-        <p class = timer-count>Time: 75</p>
-        <h1 class = "Question Results">Coding Quiz Challenge</h1>
-        <p class = "directions">Insert directions here</p>
-        <section class = "Answers Score">
-            <button type = "button" class = "button-start">Start Quiz</button>
-            <button type = "button" class = "button">1. Option 1</button>
-            <button type = "button" class = "button">2. Option 2 </button>
-            <button type = "button" class = "button">3. Option 3</button>
-            <button type = "button" class = "button">4. Option 4</button>
-
-
-        </section>
-        <form class = "highscore">
-            <label for="initials">Enter Initials:</label>
-            <input type="text" id = "initial" name = "initial">
-            <input id = "button" type="button" value="submit">
-        </form>
-        <hr class = "line">
-        <h2 class = "status">Wrong!</h2>
+      <main>
+        <body>
+            <!-- contains button for highscore, timer, top heading and directions -->
+            <section>
+                <button type = "button" class = "score-button">View high scores</button>
+                <p class = "timer-count"></p>
+                <h1 class = "Question Results">Coding Quiz Challenge</h1>
+                <p class = "directions">Answer the following questions to test your javascript knowledge. Answer all the questions before the timer runs out! To start press the start button. </p>
+            </section>
+    
+            <!-- contains all the answer buttons and start button -->
+            <section class = "Answers Score">
+                <button type = "button" class = "button-start">Start Quiz</button>
+                <button type = "button" class = "button" id = "answer1"></button>
+                <button type = "button" class = "button" id = "answer2"></button>
+                <button type = "button" class = "button" id = "answer3"></button>
+                <button type = "button" class = "button" id = "answer4"></button>
+    
+    
+            </section>
+    
+            <!-- highscore form -->
+            <form class = "highscore">
+                <label for="initials">Enter Initials:</label>
+                <input type="text" id = "initial" name = "initial">
+                <input id = "submit" type="button" value="submit">
+            </form>
+    
+            <!-- displays if answer is correct or incorrect -->
+           <section class = "correctness">
+                <hr class = "line">
+                <h2 class = "status">Wrong!</h2>
+           </section> 
+      </main>
+      <script src="assets/script.js"></script>
       </body>
-</html>
+</html> 
