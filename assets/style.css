@@ -1,0 +1,81 @@
+.Question{
+    text-align: center;
+    padding-top: 10%;
+}
+.directions{
+    text-align: center;
+    font-size: 20px;
+}
+.timer-count{
+    position:absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 26px;
+}
+.Answers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    display: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid pink;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(78, 31, 78);
+    color: white;
+    font-size: 20px;
+
+}
+
+.button-start{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid pink;
+    width: 10%;
+    text-align: center;
+    background-color: rgb(78, 31, 78);
+    color: white;
+    font-size: 20px;
+
+}
+.button:hover{
+    background-color: pink;
+}
+
+
+.score-button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.score-button:hover{
+    color: green;
+}
+
+.line {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+  .status{
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    display:none;
+  }
+  .highscore{
+    align-items: center;
+  }
+/* .score-button::after:visited{
+    color: purple;
+} */
