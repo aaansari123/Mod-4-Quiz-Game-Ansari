@@ -14,4 +14,8 @@ This contains the Module 3 Challenge
 - to check the highscores press the view button on the left
 
 ## Screenshot
-![screenshot of the page](./screenshot.png)
+![screenshot of the page](./assets/screenshot.png)
+
+## Link
+
+https://aaansari123.github.io/Mod-4-Quiz-Game-Ansari/
